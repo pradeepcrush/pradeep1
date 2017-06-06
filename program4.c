@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-void main(){
-char ch;
+void main()
+{
+char c;
 printf("enter the char");
-scanf("%c",ch);
-if((ch>="A"&&ch<="Z")||(ch>="a"&&ch<"z"))
- printf("alphabet");
-   else
-    printf("not");
+scanf("%d",c);
+if((c>=a&&c<=z)||(c>=A&&c<=Z))
+printf("It is alphabet");
+else
+printf("It is not alphabet);
 }
